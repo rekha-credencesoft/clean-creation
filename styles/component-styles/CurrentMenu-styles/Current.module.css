@@ -1,0 +1,54 @@
+.heading {
+    width: 100%;
+    background-color: #43b3ae;
+    color: white;
+    padding: 8px;
+}
+
+.heading>h1 {
+    font-weight: bold;
+    font-size: 28px;
+    margin-left: 140px;
+}
+
+.day {
+    margin-top: 40px;
+    margin-left: 145px;
+}
+
+.day>h4 {
+    font-style: italic;
+    font-size: 15px;
+    color: #484848;
+    margin-left: 4px;
+}
+
+.date {
+    border: 1px solid #43b3ae;
+    width: 70px;
+    height: 65px;
+    text-align: center;
+    color: #43b3ae;
+    border-radius: 8px;
+}
+
+.date>h5 {
+    /* font-weight: bold; */
+    font-size: 17px;
+}
+
+.date>h6 {
+    font-weight: bolder;
+    font-size: 35px;
+    margin-top: -15px;
+}
+
+@media screen and (max-width: 600px) {
+    .day {
+        margin-left: 40px;
+    }
+    .heading>h1 {
+        font-size: 20px;
+        margin-left: 70px;
+    }
+}
