@@ -487,3 +487,10 @@
     width: 60px;
   }
 }
+
+@media screen and (max-width: 400px) {
+  .packsContainer > .packs > .pack > .packHeading {
+    height: 120px;
+    flex-direction: column;
+  }
+}
