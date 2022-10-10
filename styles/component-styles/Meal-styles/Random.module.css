@@ -1,297 +1,306 @@
 .bigContainer {
-    display: flex;
-    justify-content: center;
-    width: 100%;
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 
 .container {
-    width: 100%;
-    display: flex;
-    /* border: 1px solid black; */
-    box-shadow: 2px 2px 15px 5px #eeecec;
-    border-radius: 20px;
-    margin: 25px;
-    justify-content: center;
+  width: 100%;
+  display: flex;
+  /* border: 1px solid black; */
+  box-shadow: 2px 2px 15px 5px #eeecec;
+  border-radius: 20px;
+  margin: 25px;
+  justify-content: center;
 }
 
 .innerContainer {
-    display: flex;
-    width: 100%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin: 20px;
+  display: flex;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin: 20px;
 }
 
 .option {
-    display: flex;
-    /* align-items: center; */
+  display: flex;
+  /* align-items: center; */
 }
 
 .firstButton {
-    display: flex;
-    margin-left: 10px;
-    border-radius: 5px;
-    padding-top: 10px;
-    width: 230px;
-    text-align: center;
-    justify-content: center;
+  display: flex;
+  margin-left: 10px;
+  border-radius: 5px;
+  padding-top: 10px;
+  width: 230px;
+  text-align: center;
+  justify-content: center;
 }
 
-.firstButton>h2 {
-    font-size: 15px;
-    font-size: 16px;
+.firstButton > h2 {
+  font-size: 15px;
+  font-size: 16px;
 }
 
 .button {
-    border: 2px solid black;
+  border: 2px solid black;
 }
 
 .icon {
-    height: 17px;
-    width: 17px;
-    margin-right: 5px;
+  height: 17px;
+  width: 17px;
+  margin-right: 5px;
 }
 
 .selectMeal {
-    display: flex;
+  display: flex;
 }
 
 .secondButton {
-    display: flex;
-    margin-top: 18px;
-    margin-left: 10px;
-    border-radius: 5px;
-    padding-top: 10px;
-    width: 230px;
-    text-align: center;
-    justify-content: center;
-    color: #666666;
-    padding: 10px 0;
-    box-shadow: 1px 1px 15px 1px #eeecec;
+  display: flex;
+  margin-top: 18px;
+  margin-left: 10px;
+  border-radius: 5px;
+  padding-top: 10px;
+  width: 230px;
+  text-align: center;
+  justify-content: center;
+  color: #666666;
+  padding: 10px 0;
+  box-shadow: 1px 1px 15px 1px #eeecec;
 }
 
-.secondButton>h3 {
-    font-size: 17px;
+.secondButton > h3 {
+  font-size: 17px;
 }
 
 .inner {
-    display: flex;
-    border-radius: 5px;
-    padding-top: 10px;
-    width: 180px;
-    text-align: center;
-    justify-content: center;
-    margin-left: 10px;
-    background-color: #f7a700;
-    color: white;
-    margin-top: 35px;
-    padding: 10px 0;
-    padding-top: 15px;
-    /* padding: px; */
-    /* align-items: center; */
+  display: flex;
+  border-radius: 5px;
+  padding-top: 10px;
+  width: 180px;
+  text-align: center;
+  justify-content: center;
+  margin-left: 10px;
+  background-color: #f7a700;
+  color: white;
+  margin-top: 35px;
+  padding: 10px 0;
+  padding-top: 15px;
+  /* padding: px; */
+  /* align-items: center; */
 }
 
-.inner>h3 {
-    font-size: 15px;
+.inner > h3 {
+  font-size: 15px;
 }
 
 .right {
-    width: 100%;
-    margin-left: 30px;
+  width: 100%;
+  margin-left: 30px;
 }
 
 .dietHolder {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 .dietName {
-    display: flex;
-    justify-content: space-between;
-    text-align: justify;
+  display: flex;
+  justify-content: space-between;
+  text-align: justify;
 }
 
-.dietName>h3 {
-    font-size: 12px;
-    font-weight: bold;
+.dietName > h3 {
+  font-size: 12px;
+  font-weight: bold;
 }
 
-.dietName>p>span {
-    font-size: 14px;
-    font-weight: bold;
+.dietName > p > span {
+  font-size: 14px;
+  font-weight: bold;
 }
 
-.dietName>p {
-    font-size: 12px;
+.dietName > p {
+  font-size: 12px;
 }
 
 .dietBar {
-    height: 5px;
-    margin-top: -10px;
+  height: 5px;
+  margin-top: -10px;
 }
 
 .innerDietHolder {
-    margin-left: 50px;
-    margin-top: 10px;
+  margin-left: 50px;
+  margin-top: 10px;
 }
 
 .innerDiet {
-    display: flex;
-    justify-content: space-between;
-    text-align: justify;
-    /* text-align: center; */
+  display: flex;
+  justify-content: space-between;
+  text-align: justify;
+  /* text-align: center; */
 }
 
-.innerDiet>h4 {
-    font-size: 11px;
+.innerDiet > h4 {
+  font-size: 11px;
 }
 
-.innerDiet>p {
-    font-size: 11px;
+.innerDiet > p {
+  font-size: 11px;
 }
 
 @media screen and (max-width: 1080px) {
-    .innerContainer {
-        flex-direction: column;
-    }
-    .left {
-        padding-right: 40px;
-        padding-left: 40px;
-    }
-    .right {
-        padding-right: 40px;
-        margin-top: 30px;
-    }
-    .firstButton>h2 {
-        font-size: 12px;
-    }
-    .icon {
-        height: 15px;
-        width: 15px;
-    }
+  .innerContainer {
+    flex-direction: column;
+  }
+  .left {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+  .right {
+    padding-right: 40px;
+    margin-top: 30px;
+  }
+  .firstButton > h2 {
+    font-size: 12px;
+  }
+  .icon {
+    height: 15px;
+    width: 15px;
+  }
 }
 
 .modalButtomRandom {
-    position: relative;
-    bottom: 5px;
+  position: relative;
+  bottom: 5px;
 }
-
 
 /* ////MODAL//// */
 
 .modalBody {
-    padding: 15px 20px;
+  padding: 15px 20px;
 }
 
-.modalHeader>h4 {
-    font-size: 27px;
-    font-weight: bold;
-    margin-left: 210px;
-    color: #666666;
+.modalHeader > h4 {
+  font-size: 27px;
+  font-weight: bold;
+  /* margin-left: 210px; */
+  color: #666666;
+  text-align: left;
+  display: flex;
+  justify-content: flex-start;
+  /* width: 100%; */
 }
 
 .modalFirst {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .modalSearch {
-    display: flex;
-    /* height: 40px; */
-    width: 120px;
+  display: flex;
+  /* height: 40px; */
+  width: 120px;
 }
 
-.modalSearch>input {
-    outline: 0;
-    border-bottom: 1px solid #c4c4c4;
+.modalSearch > input {
+  outline: 0;
+  border-bottom: 1px solid #c4c4c4;
 }
 
 .sorting {
-    display: flex;
-    border: 1px solid #c4c4c4;
-    justify-content: space-between;
-    padding: 2px 4px;
-    height: 30px;
-    width: 180px;
-    color: #bbbaba;
+  display: flex;
+  border: 1px solid #c4c4c4;
+  justify-content: space-between;
+  padding: 2px 4px;
+  height: 30px;
+  width: 180px;
+  color: #bbbaba;
 }
 
 .iconSort {
-    margin-top: 2px;
-    height: 20px;
-    width: 20px;
+  margin-top: 2px;
+  height: 20px;
+  width: 20px;
 }
 
-.sorting>h4 {
-    font-size: 12px;
-    margin-right: 10px;
-    margin-top: 5px;
+.sorting > h4 {
+  font-size: 12px;
+  margin-right: 10px;
+  margin-top: 5px;
 }
 
 .iconSearch {
-    margin-top: 10px;
-    color: #c4c4c4;
+  margin-top: 10px;
+  color: #c4c4c4;
 }
 
 .preferencesButton {
-    display: flex;
-    margin-top: 10px;
+  display: flex;
+  margin-top: 10px;
 }
 
 .plusIcon {
-    margin-top: 4px;
-    margin-left: 5px;
+  margin-top: 4px;
+  margin-left: 5px;
 }
 
 .buttonSix {
-    font-weight: bold;
-    font-size: 12px;
-    margin-top: 6px;
+  font-weight: bold;
+  font-size: 12px;
+  margin-top: 6px;
 }
 
 .innerButtonOne {
-    display: flex;
-    margin-right: 10px;
-    padding: 0px 3px;
-    border-radius: 4px;
-    background-color: #8ed444;
-    color: white;
+  display: flex;
+  margin-right: 10px;
+  padding: 0px 3px;
+  border-radius: 4px;
+  background-color: #8ed444;
+  color: white;
 }
 
 .innerButtonTwo {
-    display: flex;
-    border: 1px solid #8ed444;
-    padding: 0px 3px;
-    border-radius: 4px;
-    background-color: white;
-    color: #8ed444;
+  display: flex;
+  border: 1px solid #8ed444;
+  padding: 0px 3px;
+  border-radius: 4px;
+  background-color: white;
+  color: #8ed444;
 }
 
 .modalImage {
-    margin-top: 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 300px;
-    width: 100%;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 100%;
 }
 
-.modalImage>img {
-    height: 250px;
-    width: 250px;
+.modalImage > img {
+  height: 250px;
+  width: 250px;
 }
 
 @media screen and (max-width: 630px) {
-    .option {
-        flex-direction: column;
-    }
-    .firstButton {
-        margin-top: 20px;
-    }
-    .selectMeal {
-        flex-direction: column;
-    }
-    .addExtra {
-        padding: 10px 20px;
-    }
+  .option {
+    flex-direction: column;
+  }
+  .firstButton {
+    margin-top: 20px;
+  }
+  .selectMeal {
+    flex-direction: column;
+  }
+  .addExtra {
+    padding: 10px 20px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .modalSearch > input {
+    width: 120px;
+  }
 }

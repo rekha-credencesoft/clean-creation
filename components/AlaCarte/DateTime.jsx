@@ -1,5 +1,4 @@
-import React from "react";
-import { useState } from "react";
+import React, { useState } from "react";
 import styles from "../../styles/component-styles/AlaCarte/Date.module.css";
 import { HiPlusSm } from "react-icons/hi";
 import { ImSearch } from "react-icons/im";
@@ -26,7 +25,7 @@ function SidePopUP() {
         className={styles.canvasFull}
         show={show}
         onHide={handleClose}
-        placement="end"
+        // placement="end"
         scroll="true"
         // style={{ padding: "0px" }}
       >
@@ -56,10 +55,10 @@ function SidePopUP() {
                 </Form>
               </div>
             </div>
-            <div className={styles.canvasLower}>
+            <span className={styles.canvasLower}>
               <button className={styles.applyBtn}>Apply Filters</button>
               <button className={styles.applyClr}>Clear</button>
-            </div>
+            </span>
           </div>
         </Offcanvas.Body>
       </Offcanvas>
@@ -102,7 +101,7 @@ const DateTime = () => {
             <div className={styles.dateSelection}>
               <h3>3. Select your meals</h3>
             </div>
-            <div className={styles.preferencesButton}>
+            <section className={styles.preferencesButton}>
               <button>
                 <SidePopUP />
               </button>
@@ -110,7 +109,7 @@ const DateTime = () => {
                 <h6>My Diet Preferences</h6>
                 <HiPlusSm />
               </button>
-            </div>
+            </section>
           </div>
           <div className={styles.searchMeal}>
             <div className={styles.searchInput}>

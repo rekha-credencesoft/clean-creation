@@ -8,14 +8,15 @@ function PopUp() {
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
+  //
   const handleShow = () => setShow(true);
 
   return (
     <>
-      <button className={styles.modalButton} onClick={handleShow}>
+      <div className={styles.modalButton} onClick={handleShow}>
         <BsFillQuestionCircleFill className={styles.modalIcon} />
-        <h6 className={styles.modalHeadEl}>How To Order À la Carte </h6>
-      </button>
+        <h6 className={styles.modalHeadEl}>How To Order À la Carte</h6>
+      </div>
 
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
