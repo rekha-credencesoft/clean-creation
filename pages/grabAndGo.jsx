@@ -6,7 +6,7 @@ import TopBar from "../components/GrabAndGo/TopBar";
 
 const GrabAndGo = () => {
   return (
-    <div >
+    <div>
       <GrabNGoNavbar />
       <TopBar />
       <BatonGretna />

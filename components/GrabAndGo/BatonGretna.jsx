@@ -28,8 +28,9 @@ const BatonGretna = () => {
           {blogInfo.map((val, i) => (
             <div
               className={styles.cardInfo}
-              style={{ marginRight: "20px" }}
+              style={{ marginRight: "20px", marginBottom: "2vh" }}
               key={i}
+              // style={{  }}
             >
               <div className={styles.image}>
                 <Link href={val.link}>
