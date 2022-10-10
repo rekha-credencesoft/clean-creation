@@ -1,99 +1,68 @@
+.bigContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
 .container {
-    display: flex;
-    height: 28rem;
-    margin: 10px;
-    margin-bottom: 80px;
-    margin-top: -45px;
-    /* height: 100vh; */
-    /* align-items: center; */
-    justify-content: center;
+  display: flex;
+  margin: auto;
+  /* justify-content: center; */
+  position: relative;
+  align-items: center;
+  width: 90%;
+  margin-bottom: 10vh;
+  /* margin: 50vh; */
 }
 
 .image {
-    height: 800px;
-    width: 1300px;
-    margin-top: 23px;
+  /* height: 10vh; */
+  width: 1400px;
+  /* position: relative; */
 }
 
-.image>img {
-    object-fit: contain;
-    width: 100%;
+.image > img {
+  /* height: 100%;
+    width: 100%; */
+  object-fit: contain;
+  border-radius: 4px;
+  z-index: -2;
 }
 
 .card {
-    padding: 20px;
-    margin-left: 180px;
-    height: 26rem;
-    padding-top: 40px;
-    box-shadow: 2px 2px 15px 5px #eeecec;
-    border-radius: 4px;
+  /* border: 1px solid black; */
+  padding: 50px 20px;
+  border-radius: 6px;
+  box-shadow: 1px 1px 15px 4px rgb(230, 230, 230);
+  z-index: 4;
+  /* margin-left: -10vh; */
+  position: relative;
+  right: -150px;
+  background-color: #fff;
+  /* width: 80%; */
 }
 
-.card>h2 {
-    font-weight: bold;
-    font-size: 48px;
-    line-height: 98%;
+.card > h2 {
+  font-weight: bold;
+  font-size: 5vh;
 }
 
-.card>p {
-    font-size: 17px;
-    margin-top: 15px;
+.card > button {
+  background-color: #43b3ae;
+  padding: 12px 46px;
+  color: white;
+  font-size: 14px;
+  border-radius: 3px;
+  margin-top: 10px;
 }
 
-.card>button {
-    background-color: #43b3ae;
-    padding: 12px 46px;
-    color: white;
-    font-size: 14px;
-    border-radius: 3px;
-    margin-top: 10px;
-}
-
-@media screen and (max-width: 800px) {
-    .image {
-        display: none;
-    }
-    .card {
-        margin: 50px;
-        height: 35rem;
-    }
-    .container {
-        height: 40rem;
-    }
-    .card>h2 {
-        font-size: 36px;
-    }
-    .card>p {
-        font-size: 14px;
-    }
-}
-
-@media screen and (max-width: 1250px) {
-    .image {
-        display: none;
-    }
-    .card {
-        margin: 50px;
-        margin-right: 35px;
-    }
-}
-
-@media screen and (max-width: 400px) {
-    .card>h2 {
-        font-size: 26px;
-    }
-    .card>p {
-        font-size: 10px;
-    }
-    .card>button {
-        font-size: 10px;
-        padding: 10px 36px;
-    }
-    .card {
-        height: 25rem;
-    }
-    .container {
-        margin-top: -100px;
-        margin-bottom: -50px;
-    }
+@media screen and (max-width: 1400px) {
+  .image {
+    display: none;
+  }
+  .card {
+    position: relative;
+    left: 0px;
+    width: 100%;
+  }
 }

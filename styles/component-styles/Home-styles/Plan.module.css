@@ -1,79 +1,81 @@
 .container {
-    text-align: center;
-    /* height: 100vh; */
-    margin-top: 140px;
+  text-align: center;
+  /* height: 100vh; */
+  margin-top: 140px;
 }
 
-.heading>h1 {
-    font-size: 45px;
-    font-weight: 600;
+.heading > h1 {
+  font-size: 45px;
+  font-weight: 600;
 }
 
-.heading>h2 {
-    font-size: 19px;
-    font-weight: 500;
-    color: #484848;
+.heading > h2 {
+  font-size: 19px;
+  font-weight: 500;
+  color: #484848;
 }
 
 .cards {
-    display: flex;
-    justify-content: center;
-    margin-top: 60px;
-    margin: 50px;
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  /* flex-wrap: wrap; */
+  margin: 50px;
 }
 
 .card {
-    /* border: 1px solid black; */
-    height: 270px;
-    width: 215px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #484848;
-    box-shadow: 2px 2px 15px 5px #eeecec;
-    border-radius: 5px;
-    margin: 10px;
-    width: 100%;
+  /* border: 1px solid black; */
+  height: 270px;
+  width: 215px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #484848;
+  box-shadow: 2px 2px 15px 5px #eeecec;
+  border-radius: 5px;
+  margin: 10px;
+  width: 100%;
+  flex-wrap: wrap;
 }
 
-.cardHeading>h2 {
-    font-size: 18px;
-    font-weight: 550;
+.cardHeading > h2 {
+  font-size: 18px;
+  font-weight: 550;
 }
 
-.cardHeading>h3 {
-    font-size: 18px;
-    margin-top: 10px;
+.cardHeading > h3 {
+  font-size: 18px;
+  margin-top: 10px;
 }
 
-.cardHeading>h4 {
-    font-size: 19px;
-    margin-top: 10px;
+.cardHeading > h4 {
+  font-size: 19px;
+  margin-top: 10px;
 }
 
-.cardHeading>button {
-    margin-top: 25px;
-    padding: 10px 50px;
-    border: none;
-    background-color: #43b3ae;
-    color: white;
-    font-size: 18px;
-    border-radius: 3px;
+.cardHeading > button {
+  margin-top: 25px;
+  padding: 10px 50px;
+  border: none;
+  background-color: #43b3ae;
+  color: white;
+  font-size: 18px;
+  border-radius: 3px;
 }
 
-@media screen and (max-width: 800px) {
-    .cards {
-        flex-direction: column;
-    }
-    .heading>h1 {
-        font-size: 28px;
-        font-weight: 600;
-    }
-    .heading>h2 {
-        font-size: 14px;
-        margin-top: 20px;
-    }
-    .heading {
-        padding: 20px;
-    }
+@media screen and (max-width: 990px) {
+  .cards {
+    flex-direction: column;
+  }
+  .heading > h1 {
+    font-size: 28px;
+    font-weight: 600;
+  }
+  .heading > h2 {
+    font-size: 14px;
+    margin-top: 20px;
+  }
+  .heading {
+    padding: 20px;
+  }
 }
