@@ -7,7 +7,8 @@ const GretnaUpper = () => {
       <div className={styles.container}>
         <div className={styles.contactNumber}>
           <h6>
-            (Call ahead for curbside pickup <span>(225) 615-714</span>)
+            (Call ahead for curbside pickup{" "}
+            <span style={{ color: "red" }}>(225) 615-714</span>)
           </h6>
         </div>
         <div className={styles.Images}>

@@ -1,72 +1,51 @@
 .bigContainer {
   display: flex;
   justify-content: center;
-  align-items: center;
+  width: 100%;
 }
 
 .container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  color: rgb(110, 110, 110);
+  width: 80%;
+}
+
+.contactNumber {
+  text-align: center;
+  margin-top: 5vh;
 }
 
 .contactNumber > h6 {
-  font-weight: bold;
-  font-size: 35px;
-  margin-top: 40px;
-}
-
-.contactNumber > h6 > span {
-  color: rgb(36, 36, 255);
+  font-weight: 600;
+  font-size: 3vh;
 }
 
 .Images {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 50px 0px;
+  gap: 10px;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  height: 500px;
+  overflow: hidden;
 }
 
 .ImageOne {
-  height: 570px;
-  width: 550px;
-  margin-right: 120px;
+  /* height: 800px; */
+  width: 1800px;
 }
 
 .ImageOne > img {
+  width: 800px;
+  height: 100%;
   object-fit: cover;
-  height: 570px;
-  width: 550px;
+  object-position: bottom;
 }
-
 .ImageTwo {
-  height: 450px;
-  width: 750px;
+  /* height: 800px; */
+  width: 1800px;
 }
 
 .ImageTwo > img {
+  width: 800px;
+  height: 100%;
   object-fit: cover;
-  height: 450px;
-  width: 100%;
-}
-
-@media screen and (max-width: 1450px) {
-  .Images {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    /* padding: 10px; */
-  }
-  .ImageOne {
-    margin-bottom: 2vh;
-    /* width: 100%; */
-  }
-}
-
-@media screen and (max-width: 1450px) {
-  .ImageTwo > img {
-    width: 90%;
-  }
+  object-position: bottom;
 }

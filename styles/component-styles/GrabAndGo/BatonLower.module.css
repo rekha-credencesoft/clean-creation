@@ -1,36 +1,40 @@
 .bigContainer {
-    margin: 0px 50px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 10vh;
 }
 
 .container {
-    text-align: center;
+  text-align: center;
+  width: 70%;
 }
 
-.mainHead>h2 {
-    font-weight: bold;
-    font-size: 60px;
-    margin-top: 15px;
-    /* margin-bottom: 30px; */
+.mainHead > h2 {
+  font-weight: bold;
+  font-size: 4rem;
+  margin-top: 15px;
+  /* margin-bottom: 30px; */
 }
 
-.secondaryHead>h3 {
-    font-weight: bold;
-    font-size: 40px;
-    margin-bottom: 50px;
+.secondaryHead > h3 {
+  font-weight: bold;
+  font-size: 40px;
+  margin-bottom: 50px;
 }
 
 .menuDesc {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
 }
 
-.menuDesc>h4 {
-    font-weight: bold;
-    font-size: 30px;
+.menuDesc > h4 {
+  font-weight: bold;
+  font-size: 30px;
 }
 
-.menuDesc>h5 {
-    font-weight: bold;
-    font-size: 30px;
+.menuDesc > h5 {
+  font-weight: bold;
+  font-size: 30px;
 }

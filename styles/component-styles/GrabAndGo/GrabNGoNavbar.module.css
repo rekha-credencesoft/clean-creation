@@ -15,7 +15,7 @@
 
 .container > .leftSection > img {
   cursor: pointer;
-  width: 100%;
+  width: 50%;
   object-fit: contain;
 }
 
@@ -149,5 +149,10 @@
 
   .container > .hamMenu {
     display: block;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .container > .leftSection > img {
+    width: 80%;
   }
 }
