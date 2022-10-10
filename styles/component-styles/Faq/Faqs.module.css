@@ -1,32 +1,51 @@
 .container {
-    margin: 80px 50px;
+  margin: 80px 50px;
+  height: 50vh;
 }
 
 .borderLine {
-    /* margin-top: -20px; */
-    border-bottom: 1px solid black;
-    border-color: rgb(206, 206, 206);
-    /* margin-bottom: 10px;
+  /* margin-top: -20px; */
+  border-bottom: 1px solid black;
+  border-color: rgb(206, 206, 206);
+  /* margin-bottom: 10px;
     margin-top: -40px; */
 }
 
 .plusIcon {
-    margin-left: 1160px;
-    margin-top: -30px;
-    margin-bottom: 10px;
-    height: 24px;
-    width: 24px;
+  /* margin-left: 1160px; */
+  /* margin-top: -30px; */
+  /* margin-bottom: 10px; */
+  height: 24px;
+  width: 24px;
 }
 
-.collapseContent>h4 {
-    font-size: 14px;
-    margin-top: 30px;
+.collapseContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
 }
 
-.container>h3 {
-    font-weight: bold;
+.addFaqIcon {
+  display: flex;
+  /* justify-content: flex-end; */
+}
+
+.collapseContent > h4 {
+  font-size: 14px;
+  margin-top: 30px;
+}
+
+.container > h3 {
+  font-weight: bold;
 }
 
 .collapseContent:hover {
-    color: #43b3ae;
+  color: #43b3ae;
 }
+
+/* @media screen and (max-width: 900px) {
+  .collapseContent {
+    width: 40%;
+  }
+} */
