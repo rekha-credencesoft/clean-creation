@@ -10,7 +10,7 @@ function GrabAndGoFooter() {
             <img src="/bookOne.png" alt="" />
         </div>
         <div className={styles.rightSection}>
-            <div className={styles.linksWrapper}>
+            <div className={`${styles.linksWrapper}`}>
             <div className={styles.cleanCreations}>
                 <h1>BookOnePos</h1>
                 <Link href={'/about'}>About Us</Link>
