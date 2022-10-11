@@ -124,9 +124,11 @@ function GrabNGoNavbar() {
                 ""
               ) : (
                 <ul className={styles.aboutDropdownMenu}>
-                  <li className={styles.aboutDropdownMenu}>
-                    BookOnePos Baton Rouge
-                  </li>
+                  <Link href={"/clean_creations_baton_rouge"}>
+                    <li className={styles.aboutDropdownMenu}>
+                      BookOnePos Baton Rouge
+                    </li>
+                  </Link>
                 </ul>
               )}
             </li>

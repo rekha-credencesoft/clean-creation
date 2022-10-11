@@ -11,7 +11,7 @@ function clean_creations_baton_rouge() {
       <BatonRougeSection1 />
       <CrunchClean />
       <CutDown />
-      <StopStressing />
+      {/* <StopStressing /> */}
       <CleanCreationsBatonRough />
     </div>
   )

@@ -1,11 +1,12 @@
 import React from "react";
 import Link from "next/link";
+import Footer from "../Footer";
 export default class CleanCreationsBatonRough extends React.Component {
     render() {
         return (
             <div>
-                <div className="container">
-                    <p className="text-xl font-bold text-gray-700">Make Time for Well-Rounded Meals</p>
+                <div className="px-5">
+                    <p className="text-xl font-bold text-gray-700 mt-5">Make Time for Well-Rounded Meals</p>
                     <p className=" text-gray-700">We also have a variety of options to choose from for every meal of the day, so you never have to worry about skipping breakfast again! Whether you prefer your breakfast sweet or savory, our menu can accommodate. From vegan french toast to tomato and zucchini quiche, you’ll always find something fresh and delicious to love. For lunch, try a kale and quinoa power salad or Italian stuffed bell pepper. And for dinner, be sure to try our Thai turkey meatballs or pescatarian jambalaya! And don’t worry about snacks, because we’ve got those too. From matcha power balls to cranberry energy bites, our snacks are made to satisfy, keeping you full and happy in-between meals.</p>
                     <p className="text-3xl font-bold text-gray-700">Hear It From Our Customers!</p>
                     <div className="grid place-content-center">
@@ -22,13 +23,12 @@ export default class CleanCreationsBatonRough extends React.Component {
                     <p className="text-3xl font-bold text-gray-700">Make Healthy Eating a Breeze with BookOnePos, Baton Rouge</p>
                     <p className=" text-gray-700">Maintaining a healthy lifestyle when you have a busy schedule can be exhausting. From meal planning to grocery shopping to preparing the food, eating right takes time. But with BookOnePos, Baton Rouge, we make healthy eating a breeze! Not only do we hand-select the freshest ingredients for your meals, but we also do all the cooking, cleaning up, and packaging for you. And better yet, you get to pick from our current menu, tailoring your meal plan to your palate. To help you eat healthy on a time crunch, BookOnePos provides you with fresh, healthy meals delivered right to your door or for pickup at our New Orleans or Baton Rouge locations. Eating well has never been more convenient with our large selection of meal plans and à la carte options. Sign up for BookOnePos today to start your healthy eating journey today!</p>
                     <div className="grid place-content-center">
-                    <button href="/screens/Blog/read" className="mt-4  no-underline inline-flex items-center py-2 px-3 md:px-10 text-xl font-bold text-center text-white bg-teal-500 mb-10 rounded-lg">
+                    <button href="/screens/Blog/read" className="mt-4  no-underline inline-flex items-center py-2 px-3 md:px-10 lg:text-xl font-bold text-center text-white bg-teal-500 mb-10 rounded-lg">
                         SIGN UP FOR CLEAN CREATION
                     </button>
                     </div>
-
-
                 </div>
+                <Footer />
             </div>
         )
     }

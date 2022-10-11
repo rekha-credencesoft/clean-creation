@@ -57,3 +57,18 @@
     background-color: #43b3ae;
     border: 1px solid #43b3ae;
 }
+
+@media (max-width: 600px) {
+    .innerContainer {
+        padding: 50px 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .innerContainer  > .description {
+        color: #ffffff;
+        width: 80%;
+        padding-bottom: 10px;
+    }
+  }
+  

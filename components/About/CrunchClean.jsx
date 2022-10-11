@@ -3,12 +3,8 @@ import styles from "../../styles/component-styles/About/CrunchClean.module.css";
 
 const CrunchClean = () => {
   return (
-    <div className={styles.bigContainer}>
-      <div className={styles.container}>
-        <div className={styles.image}>
-          <img src="/big.jpeg" alt="" />
-        </div>
-        <div className={styles.desc}>
+      <div className="px-5  mb-10">
+        <div className={`${styles.desc} mt-5`}>
           <h3>
             Eat Healthy on a Time Crunch with BookOnePos, Baton Rouge
           </h3>
@@ -28,7 +24,6 @@ const CrunchClean = () => {
           </p>
         </div>
       </div>
-    </div>
   );
 };
 
