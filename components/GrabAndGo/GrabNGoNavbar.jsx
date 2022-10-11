@@ -35,7 +35,7 @@ function GrabNGoNavbar() {
         <li className={styles.shop}>
           Shop <span>&#8964;</span>
           <ul className={styles.shopModal}>
-            <Link href={"/byingrdients"}>
+            <Link href={"/byingredients"}>
               <li>Bulk Meals</li>
             </Link>
             <Link href={"/meals"}>
