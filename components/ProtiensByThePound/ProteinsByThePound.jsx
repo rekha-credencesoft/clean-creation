@@ -6,6 +6,7 @@ import { MdShoppingBasket } from "react-icons/md";
 import { ProgressBar } from "react-bootstrap";
 import styles from "../../styles/component-styles/ProteinsByThePound/ProtiensByThePound.module.css";
 import Link from "next/link";
+import SelectDate from "../Shop/SelectDate";
 
 function ProteinsByThePound() {
   const [caloriesData, setCaloriesData] = useState({
@@ -624,8 +625,8 @@ function ProteinsByThePound() {
 
   return (
     <div className={styles.outerContainer}>
-      <div className={styles.innerContainer}>
-        <div className={styles.outerDateContainer}>
+      <div className="lg:px-40 sm:px-1">
+        {/* <div className={styles.outerDateContainer}>
           <div className={styles.dateContainer}>
             <div className={styles.dateContainerHeading}>1. Select a Date</div>
             <div className={styles.dateCardsSection}>
@@ -669,7 +670,9 @@ function ProteinsByThePound() {
             <h3>Order for</h3>
             <h2>Sunday, June 12, 2022</h2>
           </div>
-        </div>
+        </div> */}
+        
+        <SelectDate />
         <div className={styles.packsContainer}>
           <div className={styles.packs}>
             <div className={styles.pack}>

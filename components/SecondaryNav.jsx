@@ -11,10 +11,10 @@ function SecondaryNav({heading , buttonText}) {
             </div>
             <div className={styles.button}>
                 <div className={styles.buttonText}>
-                <div className={styles.icon}>
+                <div className={styles.icon}>   
                     <FaRegQuestionCircle /> 
                 </div>
-                <h2>{buttonText}</h2>
+                <p className='lg:mt-2 px-2 mt-3'>{buttonText}</p>
                 </div>
             </div>
         </div>
