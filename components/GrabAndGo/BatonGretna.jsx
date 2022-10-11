@@ -23,23 +23,19 @@ const BatonGretna = () => {
 
   return (
     <div className={styles.bigContainer}>
-      <div className={styles.container}>
-        <div className={styles.card}>
+      <div className="flex justify-center py-5">
+        <div className="flex flex-wrap justify-center gap-5">
           {blogInfo.map((val, i) => (
             <div
-              className={styles.cardInfo}
-              style={{ marginRight: "20px", marginBottom: "2vh" }}
+              className="bg-slate-100 text-center p-2 w-80"
               key={i}
               // style={{  }}
             >
-              <div className={styles.image}>
                 <Link href={val.link}>
-                  <img className={styles.imgSize} src={val.image} />
+                  <img alt="" className="h-80 w-80" src={val.image} />
                 </Link>
-              </div>
-              <div className={styles.cardDetail}>
-                <h3>{val.heading}</h3>
-                <h4 className={styles.subHeading}>{val.descOne}</h4>
+                <p className="text-xl font-bold">{val.heading}</p>
+                <p className="font-semibold">{val.descOne}</p>
                 <Link href="/batonRouge">
                   <h5
                     style={{
@@ -52,7 +48,6 @@ const BatonGretna = () => {
                     {val.descTwo}
                   </h5>
                 </Link>
-              </div>
             </div>
           ))}
         </div>
