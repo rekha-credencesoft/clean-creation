@@ -10,7 +10,7 @@ function SignUpPage() {
             <div className={styles.innerForm}>
                 <div className={styles.formHeading}>
                     <h3>
-                        <strong>Sign Up to Sushil Creation</strong>
+                        <strong>Sign Up to Food Creation</strong>
                     </h3>
                 </div>
                 <div className={styles.formInputsContainer}>

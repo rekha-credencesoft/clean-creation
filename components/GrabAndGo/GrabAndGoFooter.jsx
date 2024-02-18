@@ -12,7 +12,7 @@ function GrabAndGoFooter() {
         <div className={styles.rightSection}>
             <div className={`${styles.linksWrapper}`}>
             <div className={styles.cleanCreations}>
-                <h1>Sushil Creation</h1>
+                <h1>Food Creation</h1>
                 <Link href={'/about'}>About Us</Link>
                 <Link href={'/grabAndGo'}>Grab And Go</Link>
                 <Link href={'/contact'}>Contact Us</Link>

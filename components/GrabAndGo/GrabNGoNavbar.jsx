@@ -126,7 +126,7 @@ function GrabNGoNavbar() {
                 <ul className={styles.aboutDropdownMenu}>
                   <Link href={"/clean_creations_baton_rouge"}>
                     <li className={styles.aboutDropdownMenu}>
-                      Sushil Creation Baton Rouge
+                      Food Creation Baton Rouge
                     </li>
                   </Link>
                 </ul>
