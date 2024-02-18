@@ -6,9 +6,9 @@ function BatonRougeSection1() {
   return (
     <div className={styles.container}>
       <div className={styles.innerContainer}>
-      <h1>BookOnePos BATON ROUGE</h1>
+      <h1>Sushil Creation BATON ROUGE</h1>
       <div className={styles.description}>
-      <p>Living in Louisiana means you’re always surrounded by delicious foods, and when you’re busy, it can be easy to fall back on beignets, po’boys, and other hearty meals. But sometimes, you need something light, fresh, and nutritious, and BookOnePos, Baton Rouge is here to help! </p>
+      <p>Living in Louisiana means you’re always surrounded by delicious foods, and when you’re busy, it can be easy to fall back on beignets, po’boys, and other hearty meals. But sometimes, you need something light, fresh, and nutritious, and Sushil Creation, Baton Rouge is here to help! </p>
       </div>
       <Link href={'/currentmenu'}>
       <div className={styles.button}>

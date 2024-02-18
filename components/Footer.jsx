@@ -43,7 +43,7 @@ export default class Footer extends React.Component {
           <Row>
             <Col>
               <Typography style={{ fontSize: "40px" }}>
-                BookOnePos
+              Sushil Creation
               </Typography>
               <h6
                 onMouseEnter={() => {
@@ -69,7 +69,7 @@ export default class Footer extends React.Component {
                   color: this.state.hover2 === true ? "#43b3ae" : "white",
                 }}
               >
-                customerservice@cleancreations.net
+                customerservice@sushilcreations.net
               </h6>
 
               <div className="flex" style={{ marginTop: "50px" }}>
@@ -133,7 +133,7 @@ export default class Footer extends React.Component {
               </ButtonGroup>
               <br />
               <Typography style={{ fontSize: "12px", marginTop: "60px" }}>
-                © 2022 BookOnePos. All Rights Reserved.
+                © 2022 Sushil Creation. All Rights Reserved.
               </Typography>
             </Col>
             <Col className="justify-content-end">
@@ -145,7 +145,7 @@ export default class Footer extends React.Component {
                     lineHeight: "25px",
                   }}
                 >
-                  <h5>BookOnePos</h5>
+                  <h5>Sushil Creation</h5>
                 </ListGroup.Item>
                 <ListGroup.Item
                   style={{

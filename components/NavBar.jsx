@@ -58,7 +58,7 @@ function NavBar() {
                     </div>
                     <div className={styles.icons}>
                         <Link href={"/cart"}><BsBasket3 size={'23px'} style={{ cursor: 'pointer', margin: '0 19px' }} /></Link>
-                        <div className={styles.profileIcon} onClick={handleProfileModal}>I
+                        <div className={styles.profileIcon} onClick={handleProfileModal}>Sushil
                 <div className={styles.profileModal} style={profileModal?{display: 'block'}:{display: 'none'}}>
                         <Link href={"/profile"}><li><CgProfile size={'23px'} /> Profile</li></Link>
                         <Link href={"/subscription"}><li><MdOutlineRiceBowl size={'23px'}/> Subscription</li></Link>

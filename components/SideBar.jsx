@@ -39,7 +39,7 @@ export default class SideBar extends React.Component {
               }}
               style={{ color: this.state.hover === true ? "#43b3ae" : "black" }}
             >
-              Credencesoft
+              Sushil
             </p>
             <div className="-ml-5">
               <ul className="space-y-2 mt-10">
