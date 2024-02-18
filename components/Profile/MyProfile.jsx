@@ -12,11 +12,11 @@ function MyProfile() {
                 <div className={styles.name}>
                     <div className={styles.firstName}>
                         <h4>First name</h4>
-                        <input type="text" value={'Inzamam'} placeholder='First Name'/>
+                        <input type="text" value={'Damanu Sushil'} placeholder='First Name'/>
                     </div>
                     <div className={styles.lastName}>
                         <h4>Last name</h4>
-                        <input type="text" value={'Pawaskar'} placeholder='LastName'/>
+                        <input type="text" value={'Kumar Dora'} placeholder='LastName'/>
                     </div>
                 </div>
                 <div className={styles.birthPhone}>
